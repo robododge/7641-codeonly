@@ -1,5 +1,4 @@
-============================================
-README.txt for ML CS7641 Fall 2021
+# README.txt for ML CS7641 Fall 2021
 Project: Supervised Learning
 
 In the code repository, you will see two top level directories:
@@ -7,7 +6,7 @@ In the code repository, you will see two top level directories:
 * /notebooks - contains juypeter notebooks used for all hyperparameter evaluation and ggeneration of validation curves
 
 
-Running the code
+ Running the code
 ---------------------
 1. make sure you have a python environment with python 3 and you have installed the required libraries using the `pip install -r requirements.txt
 2. cd the the ./code directory and run the data preprocessor 
@@ -16,11 +15,11 @@ Running the code
      `PYTHONPATH=..:. python Driver.py`
 4. Now, cd back to the notebooks directory and start a jupyternotebook kernel
 5. Navigate into each of the notebooks listed here are run each cell in all
-   01_tree.ipynb
-   02_mlp.ipynb
-   01_knn.ipynb
-   01_svm.ipynb
-   01_boost.ipynb 
+   - 01_tree.ipynb
+   - 02_mlp.ipynb
+   - 01_knn.ipynb
+   - 01_svm.ipynb
+   - 01_boost.ipynb 
 
 Results:
 ------------------
@@ -32,10 +31,10 @@ Results from running the previous steps will result in png/csv files delivered t
 
 Main Libraries used:
 -------------------
-jupyterlab          3.1.11
-matplotlib          3.4.3
-numpy               1.21.2
-pandas              1.3.2
-scikit-learn        0.24.2
+- jupyterlab          3.1.11
+- matplotlib          3.4.3
+- numpy               1.21.2
+- pandas              1.3.2
+- scikit-learn        0.24.2
 
 See requirements.txt for extensive list of the entire python environment

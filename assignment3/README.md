@@ -1,5 +1,4 @@
-============================================
-README.txt for ML CS7641 Fall 2021
+# README.txt for ML CS7641 Fall 2021
 Project: Unsupervised Learning and Dimensionality Reduction
 
 In the code repository, you will find code for both java and python
@@ -31,10 +30,10 @@ Results from running the previous steps will result in png/csv files delivered t
 
 Main Libraries used:
 -------------------
-jupyterlab          3.1.11
-matplotlib          3.4.3
-numpy               1.21.2
-pandas              1.3.2
-scikit-learn        0.24.2
+- jupyterlab          3.1.11
+- matplotlib          3.4.3
+- numpy               1.21.2
+- pandas              1.3.2
+- scikit-learn        0.24.2
 
 See requirements.txt for extensive list of the entire python environment

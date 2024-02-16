@@ -6,11 +6,39 @@ Contained here is the code-only assets for the famous CS7641 class at Gerogia Te
 1. [Assignment1 Supervised Learning](assignment1) Used Python with [ScikitLearn](https://scikit-learn.org/stable/user_guide.html)
 1. [Assignment2 Randomized Optimization](assignment1) Used Java with [ABIGAIL](https://github.com/pushkar/ABAGAIL)
 1. [Assignment3 Unsupervised Learning and Dimensionality Reduction](assignment1)  Used Python with [ScikitLearn](https://scikit-learn.org/stable/user_guide.html)
-1. [Assignment4 Markov Decision Processes MDP](assignment1) Used Java with [BURLAP]https://github.com/jmacglashan/burlap()
+1. [Assignment4 Markov Decision Processes MDP](assignment1) Used Java with [BURLAP](https://github.com/jmacglashan/burlap)
 
 ## Environment setup.
 
-**Python** I included a copy of my python requirements.txt file. You can do a full pip install with `pip3 install -f requirements.txt`
-**Java** For the projects that use Java, I wrapped them in gradlew.  So simply runing `./gradlew build` will be enough to downlaod all the depenencies and have a running environment
+* **Python** I included a copy of my python requirements.txt file. You can do a full pip install with `pip3 install -f requirements.txt`,  see my [Python setup with Pyenv below](#pyenv)
+* **Java** For the projects that use Java, I wrapped them in gradlew.  So simply runing `./gradlew build` will be enough to downlaod all the depenencies and have a running environment
 
+## <a name="pyenv"></a>Go Crazy with Python pyenv
+If you desire, you can setup a isolated python environment to avoid attempting to use your system's default python.
+
+### First, understand Venv
+**Venv** is part of python since version 3.3:  https://docs.python.org/3/library/venv.html
+
+### In comes pyenv:
+Pyenv manages different versions of python> https://www.freecodecamp.org/news/manage-multiple-python-versions-and-virtual-environments-venv-pyenv-pyvenv-a29fb00c296f/
+
+<br>Install it with brew on Mac:  `brew install pyenv`
+
+Initialize it in your local shell :  `eval "$(pyenv init -)`
+
+Install different versions of python:  `pyenv install 3.6.12`
+
+Use a specific version of:  `pyenv local 3.6.12`  (make sure you are in an active pyenv environment from the eval statement above)
+
+Now, setup an venv for the current local version of python `python3.6 -m venv env3.6`
+
+Now active that in your shell (using dot builtin) `. env3.6/bin/activate`
+  (EDIT: in zsh you use ‘srouce’ builtin i.e. `source env3.6/bin/activate`)
+
+`Python --version`  = Python 3.6.12
+The command “deactivate” will unlink the virtual environment
+
+#### Running pyenv/venv inside VSCode. 
+When typing the commands above to create a new virtual environment with venv, you will be asked by VS code if you want to switch to that virtual environment
+Also, VS code will ask if you want to install the py linter tools into that new virtual environment
 

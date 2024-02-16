@@ -1,5 +1,4 @@
-============================================
-README.txt for ML CS7641 Fall 2021
+# README.txt for ML CS7641 Fall 2021
 Project: Markov Decsion Process
 
 
@@ -14,15 +13,15 @@ Generating new results
 ---------------------
 1. Make sure you have java installed, preferable Java JDK 15+
 2. run these gradle commands from the omscs_ml_a4_burlap directory
-   a. ./gradlew build
-   b. ./gradlew publishToMavenLocal
+   - ./gradlew build
+   - ./gradlew publishToMavenLocal
 3. run these gradle commands from the cs7641_mdp/experiments directory  
-   a. ./gradlew MyLrgBDIterVIPI
-   b. ./gradlew MyLrgGWGammaVIPI
-   c. ./gradlew MySmBDGammaVIPI
-   d. ./gradlew MySmGWGammaVIPI
-   e. ./gradlew QonlyDBAlpha
-   f. ./gradlew QonlyGWlpha
+   - ./gradlew MyLrgBDIterVIPI
+   _ ./gradlew MyLrgGWGammaVIPI
+   - ./gradlew MySmBDGammaVIPI
+   - ./gradlew MySmGWGammaVIPI
+   - ./gradlew QonlyDBAlpha
+   - ./gradlew QonlyGWlpha
 
 
 Run the plotting
@@ -41,5 +40,5 @@ Results from running the previous steps will result in png/csv files delivered t
 
 Main Libraries used:
 -------------------
-burlap		    3.0.1
-java		    11+
+- burlap		    3.0.1
+- java		    11+
