@@ -1,0 +1,7 @@
+{
+    "[python]": {
+
+        "editor.wordBasedSuggestions": false
+    },
+    "python.defaultInterpreterPath": "/Users/sdodge/work/omscs/cs7641/cs7641_assignments/env3.9.7"
+}

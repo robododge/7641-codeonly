@@ -1,0 +1,6 @@
+,classifier,F1 score,train size,test size,train time,parameters
+0,Decision Tree,0.5846407927332784,14368,4790,0.0158s,"{'max_depth': 6, 'min_samples_leaf': 220}"
+3,SVM,0.5744754041967665,14368,4790,7.4106s,"{'kernel': 'rbf', 'gamma': 0.0036, 'class_weight': 'balanced', 'max_iter': 30000}"
+4,Boost,0.5326037391700866,14368,4790,0.0335s,"{'n_estimators': 5, 'learning_rate': 1.4}"
+1,MLP,0.46760837798343885,14368,4790,1.6920s,{'neuron_layer1': 7}
+2,KNN,0.44001991040318567,14368,4790,0.0116s,"{'k': 9, 'weights': 'uniform'}"

@@ -1,0 +1,14 @@
+.python-version
+*.pyc
+*.npy
+*.pkl
+.vscode/*
+*.zip
+env3.9.7/*
+output/*
+.DS_store
+__pycache__
+junk.txt
+env*
+.DS_store
+.ipynb_checkpoints

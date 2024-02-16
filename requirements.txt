@@ -1,0 +1,10 @@
+matplotlib
+numpy
+pprofile
+pyparsing
+pytest
+python-dateutil
+scipy
+seaborn
+scikit-learn
+jupyterlab

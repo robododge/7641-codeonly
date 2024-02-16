@@ -1,0 +1,4 @@
+notebooks/plots/*
+notebooks/old_plots/*
+notebooks/output/*
+code/output/*
